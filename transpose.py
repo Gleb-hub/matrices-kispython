@@ -1,4 +1,4 @@
-def transpose_matrix(matrix):
+def transpose(matrix):
     transposed_matrix = []
     for j in range(len(matrix)):
         temp_row = []
@@ -14,5 +14,5 @@ if __name__ == '__main__':
         [1, 0, 3],
         [0, 1, 1]
     ]
-    result_matrix = transpose_matrix(matrix)
+    result_matrix = transpose(matrix)
     print(result_matrix)

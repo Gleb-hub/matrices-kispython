@@ -1,4 +1,3 @@
-from smalldet import smalldet
 from submatrix import submatrix
 from determinant import determinant
 
